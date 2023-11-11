@@ -1,0 +1,25 @@
+h3{font-family: 'Allan', serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Pacifico', cursive;}
+body {
+    color: #C5C6C7;
+}
+.blakkkkkk {
+    background-color: black;
+    border-color: cyan;
+    color: white;
+}
+canvas{
+    background-color: #000000;
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    height: 500px;
+    width: 600px;
+}            
+@keyframes example{
+    from{box-shadow:15px 15px 50px rgb(61, 90, 255);}
+    to{box-shadow: 15px 15px 50px cyan;}
+}                           
